@@ -9,3 +9,6 @@ a recycle bin for linux shell ,and you need use `crontab -e` or edit `/etc/cront
 
 ## snake.sh
 this is the snake game by shell
+
+## format_json.sh
+format the json str
