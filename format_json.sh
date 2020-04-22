@@ -126,8 +126,6 @@ else
     strings="$@"
 fi
 
-ifs_bak="$IFS"
-IFS=$'\n'
 offset=0
 while ((1)); do
     ch="${strings:$offset:1}"
@@ -135,5 +133,4 @@ while ((1)); do
     [ -z "$ch" ] && break
     let offset++
 done
-IFS="$ifs_bak"
 echo
